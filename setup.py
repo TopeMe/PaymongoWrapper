@@ -8,7 +8,7 @@ setup(
     description="A simple PayMongo API wrapper for Python.",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/paymongo-service",
+    url="https://github.com/TopeMe/PaymongoWrapper",
     packages=find_packages(),
     install_requires=["requests", "python-dotenv"],
     classifiers=[
@@ -23,6 +23,6 @@ setup(
     package_data={"": ["README.md", "LICENSE"]},
     keywords="paymongo payments api wrapper",
     project_urls={
-        "Source": "https://github.com/yourusername/paymongo-service",
+        "Source": "https://github.com/TopeMe/PaymongoWrapper",
     },
 )
