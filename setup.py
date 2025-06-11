@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="paymongo-service",
+    name="paymongo-wrapper",
     version="0.1.0",
     author="Christopher I Ejada Jr",
     author_email="topeejada1@gmail.com",
