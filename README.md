@@ -42,7 +42,7 @@ load_dotenv()
 ### 2. Declartion
 
 ```python
-from paymongo_service import PayMongoService
+from paymongo_wrapper import PayMongoService
 
 paymongo = PayMongoService(
     secret_key="sk_test_your_secret_key",
@@ -64,7 +64,7 @@ PAYMONGO_RETURN_URL = "http://127.0.0.1:8000/"
 ## Usage
 
 ```python
-from paymongo_service.service import PayMongoService
+from paymongo_wrapper import PayMongoService
 
 paymongo = PayMongoService()
 
