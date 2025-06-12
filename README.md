@@ -39,7 +39,21 @@ from dotenv import load_dotenv
 load_dotenv()
 ```
 
-### 2. Or directly modify the variables in `service.py`:
+### 2. Declartion
+
+'''python
+from paymongo_service import PayMongoService
+
+paymongo = PayMongoService(
+    secret_key="sk_test_your_secret_key",
+    return_url="http://127.0.0.1:8000/"
+)
+
+intent = paymongo.create_payment_intent(100.00)
+'''
+
+
+### 3(Optional). Or directly modify the variables in `service.py`:
 
 ```python
 PAYMONGO_SECRET_KEY = "sk_test_your_secret_key"
