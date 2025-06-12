@@ -41,7 +41,7 @@ load_dotenv()
 
 ### 2. Declartion
 
-'''python
+```python
 from paymongo_service import PayMongoService
 
 paymongo = PayMongoService(
@@ -50,7 +50,7 @@ paymongo = PayMongoService(
 )
 
 intent = paymongo.create_payment_intent(100.00)
-'''
+```
 
 
 ### 3(Optional). Or directly modify the variables in `service.py`:
