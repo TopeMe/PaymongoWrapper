@@ -15,7 +15,7 @@ A simple and lightweight Python wrapper for the [PayMongo API](https://developer
 Install via pip:
 
 ```bash
-pip install paymongo-service
+pip install paymongo-wrapper
 ```
 
 ## Setup
